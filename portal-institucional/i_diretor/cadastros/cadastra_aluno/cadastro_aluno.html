@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="cadastro_aluno.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="large-box"></div>
+        <div class="circle"></div>
+    </header>
+    <div class="box">
+        <main class="main-content">
+            <h1 class="cadastro-aluno">Cadastro de Aluno</h1>
+            <section>
+                <form action="">
+                    <div class="cadastro-boxes">
+                        <label for="nome_c">Nome Completo</label>
+                        <input type="text" placeholder="Digite o nome completo do aluno" id="nome_c">
+                    </div>
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <p>Gênero</p>
+                        </div>
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <label for="masculino">Masculino</label>
+                                <input type="radio" id="masculino" name="gender">
+                            </div>
+                            <div class="gender-input">
+                                <label for="feminino">Feminino</label>
+                                <input type="radio" id="feminino" name="gender">
+                            </div>
+                            <div class="gender-input-box">
+                                <label for="outro">Outro:</label>
+                                <input type="text" placeholder="Especifique" id="feminino" name="gender">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cadastro-boxes">
+                        <label for="logradouro">Logradouro</label>
+                        <input type="text" placeholder="Digite o logradouro" id="logradouro">
+                    </div>
+                    <div class="cadastro-boxes-nb">
+                        <div class="input-nb">
+                            <label for="numero">Nº</label>
+                            <input type="number" placeholder="Digite o número" id="numero">
+                        </div>
+                        <div class="input-nb">
+                            <label for="bairro">Bairro</label>
+                            <input type="text" placeholder="Digite o bairro" id="bairro">
+                        </div>
+                    </div>
+                    <div class="cadastro-boxes">
+                        <label for="celular">Celular</label>
+                        <input type="tel" placeholder="Digite um número de celular" id="celular">
+                    </div>
+                    <div class="cadastro-boxes">
+                        <label for="nome_mãe">Nome da Mãe</label>
+                        <input type="text" placeholder="Digite o nome completo da mãe" id="nome_mãe">
+                    </div>
+                    <div class="cadastro-boxes">
+                        <label for="nome_pai">Nome do Pai</label>
+                        <input type="text" placeholder="Digite o nome completo do pai" id="nome_pai">
+                    </div>
+                </form>
+            </section>
+            <section>
+                <a href="../../lista_cadastros/lista_alunos/lista_aluno.html"><button class="cadastrar-button">Cadastrar Aluno</button></a>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
